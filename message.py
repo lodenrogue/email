@@ -10,7 +10,6 @@ class Email():
 
     def __init__(self):
         self._config = None
-        another line
 
 
     def send(self, recipient, subject, body):

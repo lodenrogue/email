@@ -25,11 +25,11 @@ smtpSSL=smtp.your_domain.com:465
 Usage:
 
 ```sh
-python email_message.py <recipient> <subject> <path-to-message>
+python message.py <recipient> <subject> <path-to-message>
 ```
 
 Example:
 
 ```sh
-python email_message.py user@example.com "A Subject" path/to/message.txt
+python message.py user@example.com "A Subject" path/to/message.txt
 ```

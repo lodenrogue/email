@@ -1,4 +1,4 @@
-Setup:
+### Setup:
 
 - Create a .email directory in your home folder:
 
@@ -22,13 +22,13 @@ smtpSSL=smtp.your_domain.com:465
 
 ---
 
-Usage:
+### Usage:
 
 ```sh
 python message.py <recipient> <subject> <path-to-message>
 ```
 
-Example:
+### Example:
 
 ```sh
 python message.py user@example.com "A Subject" path/to/message.txt
